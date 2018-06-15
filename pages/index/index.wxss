@@ -1,0 +1,98 @@
+.Lately-control{
+  padding: 30rpx;
+}
+.header{
+  width: 100%;
+  font: 500 32rpx/40rpx "微软雅黑";
+  color: #000000;
+}
+.item-control{
+  padding: 20rpx;
+  font: 400 30rpx/40rpx "微软雅黑";
+}
+.item-control .item{
+  width: 50%;
+  float: left; 
+  display: flex; 
+  flex-direction: column; 
+  align-items:center;
+}
+.item-control .item-img{
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 8rpx;
+}
+.name{
+  color: #000000;
+}
+.singer{
+  color: #aaaaaa;
+}
+.play-list-control{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.play-list-txt{
+  font: 500 32rpx/40rpx "宋体";
+}
+.play-list-iv{
+  width: 40rpx;
+  height: 40rpx;
+}
+.third-type-control{
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx 30rpx 90rpx 30rpx;
+  justify-content: center;
+}
+.lately-control,
+.mylove-control,
+.sound-record-control{
+  display: flex;
+  height: 100rpx;
+}
+.lately-control image,
+.mylove-control image,
+.sound-record-control image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.lately-control text,
+.mylove-control text,
+.sound-record-control text{
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+.line{
+  width: 100%;
+  height: 2rpx;
+  background-color: #cccccc;
+}
+.play-control{
+  width: 100%;
+  height: 90rpx;
+  background-color: #eeeeee;
+  display: flex;
+  /* flex-direction: row; */
+  align-items:center;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+}
+.play-control .play-img{
+  width: 13%;
+  height: 80%; 
+  border-radius: 8rpx; 
+  margin-left: 30rpx;
+}
+.play-control text{
+  display: block;
+  width: 100%;
+  font: 400 30rpx/40rpx "宋体";
+}
+.play-control image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 30rpx;
+}

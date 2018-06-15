@@ -1,0 +1,43 @@
+<!-- 最近添加开始 -->
+<view class='Lately-control clearfix'>
+  <text class='header'>最近添加></text>
+  <view class='item-control'>
+    <view class='item' wx:for='{{_songsList}}' bindtap='itemClick' >
+      <view style="background-image:url('{{item.coverImgUrl}}')" class='item-img' id='{{index}}'></view>
+      <text class='name'>{{item.name}}</text>
+      <text class='singer'>{{item.singer}}</text>
+    </view>
+  </view>
+</view>
+<!-- 最近添加结束 -->
+
+<!-- 播放列表开始 -->
+<view class='play-list-control' bindtap='showAction'>
+  <text class='play-list-txt'>播放列表</text>
+  <image class='play-list-iv' src='../../images/icon_down.png'></image>
+</view>
+<!-- 播放列表结束 -->
+<!-- 三种类型开始 -->
+<view class='third-type-control'>
+  <view class='lately-control'>
+    <image src='../../images/music_list.png'></image>
+    <text>最近播放</text>
+  </view>
+  <view class='line'></view>
+  <view class='mylove-control'>
+    <image src='../../images/mylove.png'></image>
+    <text>我喜欢</text>
+  </view>
+  <view class='line'></view>
+  <view class='sound-record-control'>
+    <image src='../../images/sound_recording.png'></image>
+    <text>我喜欢</text>
+  </view>
+  <view class='line'></view>
+</view>
+<!-- 三种类型结束 -->
+<view class='play-control'>
+  <image src='{{currentImage}}' class='play-img'></image>
+  <text>{{currentName}}</text>
+  <image src='../../images/stop.png'></image>
+</view>
